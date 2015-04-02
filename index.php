@@ -9,4 +9,9 @@
       Lorem ipsum etc<br>
     </p>
   </div>
+
+  <div id="contact">
+    Here is my contact info<br>
+    LOL!
+  </div>
 </div>
