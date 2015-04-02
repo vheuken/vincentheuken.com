@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Test Title!</title>
+  <title><?php echo get_bloginfo('name') ?></title>
 
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
@@ -16,4 +16,3 @@
   </div>
 </div>
 
-<?php get_sidebar(); ?>
