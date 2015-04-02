@@ -15,3 +15,5 @@
     <?php echo get_bloginfo('description') ?>
   </div>
 </div>
+
+<?php get_sidebar(); ?>

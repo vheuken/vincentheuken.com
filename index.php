@@ -1,3 +1,3 @@
 <?php get_header(); ?>
-FOO!
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
