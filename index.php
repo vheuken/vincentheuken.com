@@ -10,8 +10,16 @@
     </p>
   </div>
 
+  <div id="blog">
+    <p>
+      le blog face
+    </p>
+  </div>
+
   <div id="contact">
-    Here is my contact info<br>
-    LOL!
+    <p>
+      Here is my contact info<br>
+      LOL!
+    </p>
   </div>
 </div>
