@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 </head>
 
+<body>
+
 <div id="header">
   <div id="title">
     <?php echo get_bloginfo('name') ?>
