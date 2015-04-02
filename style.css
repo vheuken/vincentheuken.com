@@ -1,0 +1,45 @@
+body {
+	font-family:  "Georgia";
+}
+
+#header {
+	text-align: center;
+}
+
+#title {
+	font-size: 46px;
+}
+
+#subtitle {
+	font-size: 18px;
+}
+
+#sidebar {
+	font-size: 34px;
+	float: left;
+}
+
+#content {
+	position:absolute;
+	margin-left: 175px;
+	float: left;
+}
+
+#ie_warning {
+	text-align:center;
+	color:red;
+}
+
+.button {
+	cursor:pointer;
+}
+
+.line-separator {
+	height:1px;
+
+	background:#FFFFFF;
+
+	border-bottom:1px solid #313030;
+
+	font-size:1px;
+}
