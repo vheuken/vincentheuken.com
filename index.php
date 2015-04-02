@@ -18,8 +18,7 @@
 
   <div id="contact">
     <p>
-      Here is my contact info<br>
-      LOL!
+      <?php echo get_page_by_title('Contact')->post_content; ?>
     </p>
   </div>
 </div>
