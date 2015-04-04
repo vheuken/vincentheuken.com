@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
 
 <div id="content">
   <div id="about">
@@ -12,7 +10,9 @@
 
   <div id="blog">
     <p>
-      le blog face
+      <?php while (have_posts()) : the_post(); ?>
+	  <h1><?php the_title(); ?></h1>
+	<?php endwhile; ?>
     </p>
   </div>
 
@@ -22,3 +22,8 @@
     </p>
   </div>
 </div>
+
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
+
