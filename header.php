@@ -21,4 +21,13 @@
   </div>
 </div>
 
+<div id="social_buttons">
+  <div class="social_button" id="email_button">
+  </div>
+  <div class="social_button" id="github_button">
+  </div>
+  <div class="social_button" id="twitter_button">
+  </div>
+</div>
+
 <hr>
