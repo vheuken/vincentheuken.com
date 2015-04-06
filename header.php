@@ -22,12 +22,15 @@
 
   <div id="social_buttons">
     <span class="rrssb-icon">
-      <a class="image_link" href="mailto:me@vincentheuken.com"><?php echo file_get_contents(get_template_directory_uri() . "/icons/mail.svg"); ?>
-    </a>
+      <a class="image_link" href="mailto:me@vincentheuken.com">
+	<?php echo file_get_contents(get_template_directory_uri() . "/icons/mail.svg"); ?>
+      </a>
     </span>
 
     <span class="rrssb-icon">
-      <a class="image_link" href="github.com/vheuken"><?php echo file_get_contents(get_template_directory_uri() . "/icons/github.svg"); ?></a>
+      <a class="image_link" href="github.com/vheuken">
+	<?php echo file_get_contents(get_template_directory_uri() . "/icons/github.svg"); ?>
+      </a>
     </span>
 
     <span class="rrssb-icon">
