@@ -7,6 +7,8 @@
       <h1><?php the_title(); ?></h1>
       <h4>Posted on <?php the_time('F jS, Y'); ?></h4>
       <?php the_content(); ?>
+      <!-- Yes, I know the date is posted twice. This is intentional -->
+      <h4>Posted on <?php the_time('F jS, Y'); ?></h4>
     <?php endwhile; ?>
    </p>
   </div>
